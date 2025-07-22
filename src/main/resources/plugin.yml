@@ -1,0 +1,26 @@
+name: "ChestLocker-Nukkit"
+version: 1.0.0
+api: 1.0.0
+author: "xxFLORII"
+website: "https://github.com/xxPLUGINS/ChestLocker-Nukkit"
+main: dev.xxplugins.chestlocker.Loader
+
+permissions:
+  chestlocker.bypass:
+    default: op
+    description: ""
+  cmd.unlockchest:
+    default: true
+    description: ""
+  cmd.lockchest:
+    default: true
+    description: ""
+  cmd.chestlocker.help:
+    default: op
+    description: ""
+  cmd.chestlocker.reload:
+    default: op
+    description: ""
+  cmd.chestlocker.info:
+    default: op
+    description: ""
